@@ -1,0 +1,54 @@
+{
+  "field": [
+    {
+      "id": 1,
+      "name": "West Java",
+      "type": "Geothermal"
+    },
+    {
+      "id": 2,
+      "name": "field name",
+      "type": "field type"
+    }
+  ],
+  "pad": [
+    {
+      "id": 1,
+      "name": "H"
+    },
+    {
+      "id": 2,
+      "name": "I"
+    }
+  ],
+  "well": [
+    {
+      "id": "#00001",
+      "name": "RGS-01",
+      "type": "Exploration",
+      "deviation": "Directional",
+      "field_name": "West Java",
+      "pad_name": "H",
+      "rig_name": "BXX-231",
+      "rig_company": "PT xyz",
+      "spud_date": "1/20/1997",
+      "kop_depth": 407,
+      "total_depth": 2089,
+      "total_days": "45.25"
+    },
+    {
+      "id": "#00002",
+      "name": "RGS-01",
+      "type": "Exploration",
+      "deviation": "Directional",
+      "field_name": "West Java",
+      "pad_name": "H",
+      "rig_name": "BXX-231",
+      "rig_company": "PT xyz",
+      "spud_date": "1/20/1997",
+      "kop_depth": 514,
+      "total_depth": 3009,
+      "total_days": "60"
+    }
+  ]
+}
