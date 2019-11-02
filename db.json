@@ -36,7 +36,7 @@
   "well": [
     {
       "well_id": 1,
-      "well_name": "RGS-01",
+      "well_name": "RIG-01",
       "well_type": "Exploration",
       "deviation": "Directional",
       "field": {
