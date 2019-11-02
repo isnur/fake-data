@@ -64,8 +64,8 @@
         "field_name": "West Java"
       },
       "pad": {
-        "pad_id": 1,
-        "pad_name": "H"
+        "pad_id": 2,
+        "pad_name": "I"
       },
       "rig_name": "BXX-231",
       "rig_company": "PT xyz",
@@ -84,8 +84,8 @@
         "field_name": "Central Java"
       },
       "pad": {
-        "pad_id": 2,
-        "pad_name": "I"
+        "pad_id": 3,
+        "pad_name": "J"
       },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
@@ -104,8 +104,8 @@
         "field_name": "Central Java"
       },
       "pad": {
-        "pad_id": 2,
-        "pad_name": "I"
+        "pad_id": 3,
+        "pad_name": "j"
       },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
@@ -164,8 +164,8 @@
         "field_name": "Central Java"
       },
       "pad": {
-        "pad_id": 2,
-        "pad_name": "I"
+        "pad_id": 3,
+        "pad_name": "j"
       },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
@@ -184,8 +184,8 @@
         "field_name": "Central Java"
       },
       "pad": {
-        "pad_id": 2,
-        "pad_name": "I"
+        "pad_id": 3,
+        "pad_name": "j"
       },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
@@ -224,8 +224,8 @@
         "field_name": "Central Java"
       },
       "pad": {
-        "pad_id": 2,
-        "pad_name": "I"
+        "pad_id": 3,
+        "pad_name": "j"
       },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
@@ -244,8 +244,8 @@
         "field_name": "Central Java"
       },
       "pad": {
-        "pad_id": 2,
-        "pad_name": "I"
+        "pad_id": 3,
+        "pad_name": "j"
       },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
