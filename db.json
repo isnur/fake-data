@@ -19,15 +19,18 @@
   "pad": [
     {
       "pad_id": 1,
-      "pad_name": "H"
+      "pad_name": "H",
+      "field_id": 1
     },
     {
       "pad_id": 2,
-      "pad_name": "I"
+      "pad_name": "I",
+      "field_id": 1
     },
     {
       "pad_id": 3,
-      "pad_name": "J"
+      "pad_name": "J",
+      "field_id": 2
     }
   ],
   "well": [
