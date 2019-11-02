@@ -1,34 +1,49 @@
 {
   "field": [
     {
-      "id": 1,
-      "name": "West Java",
-      "type": "Geothermal"
+      "field_id": 1,
+      "field_name": "West Java",
+      "field_type": "Geothermal"
     },
     {
-      "id": 2,
-      "name": "Central Java",
-      "type": "field type"
+      "field_id": 2,
+      "field_name": "Central Java",
+      "field_type": "field type"
+    },
+    {
+      "field_id": 3,
+      "field_name": "Field name",
+      "field_type": "field type"
     }
   ],
   "pad": [
     {
-      "id": 1,
-      "name": "H"
+      "pad_id": 1,
+      "pad_name": "H"
     },
     {
-      "id": 2,
-      "name": "I"
+      "pad_id": 2,
+      "pad_name": "I"
+    },
+    {
+      "pad_id": 3,
+      "pad_name": "J"
     }
   ],
   "well": [
     {
-      "id": "#00001",
-      "name": "RGS-01",
-      "type": "Exploration",
+      "well_id": 1,
+      "well_name": "RGS-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "West Java",
-      "pad_name": "H",
+      "field": {
+        "field_id": 1,
+        "field_name": "West Java"
+      },
+      "pad": {
+        "pad_id": 1,
+        "pad_name": "H"
+      },
       "rig_name": "BXX-231",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -37,12 +52,18 @@
       "total_days": "45.25"
     },
     {
-      "id": "#00002",
-      "name": "RGS-01",
-      "type": "Exploration",
+      "well_id": 2,
+      "well_name": "RGS-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "West Java",
-      "pad_name": "H",
+      "field": {
+        "field_id": 1,
+        "field_name": "West Java"
+      },
+      "pad": {
+        "pad_id": 1,
+        "pad_name": "H"
+      },
       "rig_name": "BXX-231",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -51,12 +72,18 @@
       "total_days": "60"
     },
     {
-      "id": "#00003",
-      "name": "REI-01",
-      "type": "Exploration",
+      "well_id": 3,
+      "well_name": "REI-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "Central Java",
-      "pad_name": "I",
+      "field": {
+        "field_id": 2,
+        "field_name": "Central Java"
+      },
+      "pad": {
+        "pad_id": 2,
+        "pad_name": "I"
+      },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -65,12 +92,18 @@
       "total_days": "45.25"
     },
     {
-      "id": "#00004",
-      "name": "REI-01",
-      "type": "Exploration",
+      "well_id": 4,
+      "well_name": "REI-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "Central Java",
-      "pad_name": "I",
+      "field": {
+        "field_id": 2,
+        "field_name": "Central Java"
+      },
+      "pad": {
+        "pad_id": 2,
+        "pad_name": "I"
+      },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -79,12 +112,18 @@
       "total_days": "60"
     },
     {
-      "id": "#00005",
-      "name": "RGS-01",
-      "type": "Exploration",
+      "well_id": 5,
+      "well_name": "RGS-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "West Java",
-      "pad_name": "H",
+      "field": {
+        "field_id": 1,
+        "field_name": "West Java"
+      },
+      "pad": {
+        "pad_id": 1,
+        "pad_name": "H"
+      },
       "rig_name": "BXX-231",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -93,12 +132,18 @@
       "total_days": "45.25"
     },
     {
-      "id": "#00006",
-      "name": "RGS-01",
-      "type": "Exploration",
+      "well_id": 6,
+      "well_name": "RGS-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "West Java",
-      "pad_name": "H",
+      "field": {
+        "field_id": 1,
+        "field_name": "West Java"
+      },
+      "pad": {
+        "pad_id": 1,
+        "pad_name": "H"
+      },
       "rig_name": "BXX-231",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -107,12 +152,18 @@
       "total_days": "60"
     },
     {
-      "id": "#00007",
-      "name": "REI-01",
-      "type": "Exploration",
+      "well_id": 7,
+      "well_name": "REI-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "Central Java",
-      "pad_name": "I",
+      "field": {
+        "field_id": 2,
+        "field_name": "Central Java"
+      },
+      "pad": {
+        "pad_id": 2,
+        "pad_name": "I"
+      },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -121,12 +172,18 @@
       "total_days": "45.25"
     },
     {
-      "id": "#00008",
-      "name": "REI-01",
-      "type": "Exploration",
+      "well_id": 8,
+      "well_name": "REI-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "Central Java",
-      "pad_name": "I",
+      "field": {
+        "field_id": 2,
+        "field_name": "Central Java"
+      },
+      "pad": {
+        "pad_id": 2,
+        "pad_name": "I"
+      },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -135,12 +192,18 @@
       "total_days": "60"
     },
     {
-      "id": "#00009",
-      "name": "RGS-01",
-      "type": "Exploration",
+      "well_id": 9,
+      "well_name": "RGS-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "West Java",
-      "pad_name": "H",
+      "field": {
+        "field_id": 1,
+        "field_name": "West Java"
+      },
+      "pad": {
+        "pad_id": 1,
+        "pad_name": "H"
+      },
       "rig_name": "BXX-231",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -149,12 +212,18 @@
       "total_days": "60"
     },
     {
-      "id": "#00010",
-      "name": "REI-01",
-      "type": "Exploration",
+      "well_id": 10,
+      "well_name": "REI-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "Central Java",
-      "pad_name": "I",
+      "field": {
+        "field_id": 2,
+        "field_name": "Central Java"
+      },
+      "pad": {
+        "pad_id": 2,
+        "pad_name": "I"
+      },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
@@ -163,12 +232,18 @@
       "total_days": "45.25"
     },
     {
-      "id": "#00011",
-      "name": "REI-01",
-      "type": "Exploration",
+      "well_id": 11,
+      "well_name": "REI-01",
+      "well_type": "Exploration",
       "deviation": "Directional",
-      "field_name": "Central Java",
-      "pad_name": "I",
+      "field": {
+        "field_id": 2,
+        "field_name": "Central Java"
+      },
+      "pad": {
+        "pad_id": 2,
+        "pad_name": "I"
+      },
       "rig_name": "TSL-1",
       "rig_company": "PT xyz",
       "spud_date": "1/20/1997",
