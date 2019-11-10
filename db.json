@@ -1,4 +1,90 @@
 {
+  "user": [
+    {
+      "user_id": 3,
+      "username": "rigsis",
+      "password": "password",
+      "full_name": "Rigsis",
+      "org_id": 1,
+      "role_id": 1,
+      "priv_id": 1,
+      "email": "rigsis@isnur.com",
+      "token": "valid-token-for-rigsis",
+      "role": "MASTER"
+    },
+    {
+      "user_id": 4,
+      "username": "superadmin",
+      "password": "password",
+      "full_name": "superadmin",
+      "org_id": 1,
+      "role_id": 2,
+      "priv_id": 2,
+      "email": "superadmin@isnur.com",
+      "token": "valid-token-for-superadmin",
+      "role": "SUPERADMIN"
+    },
+    {
+      "user_id": 5,
+      "username": "planner",
+      "password": "password",
+      "full_name": "planner",
+      "org_id": 1,
+      "role_id": 3,
+      "priv_id": 3,
+      "email": "planner@isnur.com",
+      "token": "valid-token-for-planner",
+      "role": "PLANNER"
+    },
+    {
+      "user_id": 6,
+      "username": "drilling-engineer",
+      "password": "password",
+      "full_name": "drilling engineer",
+      "org_id": 1,
+      "role_id": 4,
+      "priv_id": 4,
+      "email": "drilling.engineer@isnur.com",
+      "token": "valid-token-for-drilling-engineer",
+      "role": "DRILLING ENGINEER"
+    },
+    {
+      "user_id": 7,
+      "username": "company-man",
+      "password": "password",
+      "full_name": "company man",
+      "org_id": 1,
+      "role_id": 5,
+      "priv_id": 5,
+      "email": "company.man@isnur.com",
+      "token": "valid-token-for-company-man",
+      "role": "COMPANY MAN"
+    },
+    {
+      "user_id": 8,
+      "username": "geologist",
+      "password": "password",
+      "full_name": "geologist",
+      "org_id": 1,
+      "role_id": 6,
+      "priv_id": 6,
+      "email": "geologist@isnur.com",
+      "token": "valid-token-for-geologist",
+      "role": "GEOLOGIST"
+    },
+    {
+      "user_id": 9,
+      "username": "management",
+      "password": "password",
+      "full_name": "management",
+      "org_id": 1,
+      "role_id": 7,
+      "priv_id": 7,
+      "email": "management@isnur.com",
+      "token": "valid-token-for-management",
+      "role": "MANAGEMENT"
+    }
+  ],
   "field": [
     {
       "field_id": 1,
