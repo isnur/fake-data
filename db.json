@@ -10,7 +10,8 @@
       "priv_id": 1,
       "email": "rigsis@isnur.com",
       "token": "valid-token-for-rigsis",
-      "role": "MASTER"
+      "role": "MASTER",
+      "priv": [1, 2, 3, 4, 5, 6, 7, 8, 14]
     },
     {
       "user_id": 4,
@@ -22,7 +23,8 @@
       "priv_id": 2,
       "email": "superadmin@isnur.com",
       "token": "valid-token-for-superadmin",
-      "role": "SUPERADMIN"
+      "role": "SUPERADMIN",
+      "priv": [1, 2, 3, 5, 6, 7, 8, 14]
     },
     {
       "user_id": 5,
@@ -34,7 +36,8 @@
       "priv_id": 3,
       "email": "planner@isnur.com",
       "token": "valid-token-for-planner",
-      "role": "PLANNER"
+      "role": "PLANNER",
+      "priv": [5, 6, 7, 8, 13, 14]
     },
     {
       "user_id": 6,
@@ -46,7 +49,8 @@
       "priv_id": 4,
       "email": "drilling.engineer@isnur.com",
       "token": "valid-token-for-drilling-engineer",
-      "role": "DRILLING ENGINEER"
+      "role": "DRILLING ENGINEER",
+      "priv": [5, 6, 7, 8, 9, 10, 11, 12, 14]
     },
     {
       "user_id": 7,
@@ -58,7 +62,8 @@
       "priv_id": 5,
       "email": "company.man@isnur.com",
       "token": "valid-token-for-company-man",
-      "role": "COMPANY MAN"
+      "role": "COMPANY MAN",
+      "priv": [5, 6, 9, 10, 14]
     },
     {
       "user_id": 8,
@@ -70,7 +75,8 @@
       "priv_id": 6,
       "email": "geologist@isnur.com",
       "token": "valid-token-for-geologist",
-      "role": "GEOLOGIST"
+      "role": "GEOLOGIST",
+      "priv": [7, 12, 14]
     },
     {
       "user_id": 9,
@@ -82,7 +88,8 @@
       "priv_id": 7,
       "email": "management@isnur.com",
       "token": "valid-token-for-management",
-      "role": "MANAGEMENT"
+      "role": "MANAGEMENT",
+      "priv": [14]
     }
   ],
   "field": [
