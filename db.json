@@ -347,5 +347,75 @@
       "total_depth": 4509,
       "total_days": "60"
     }
-  ]
+  ],
+  "daily-drilling-report": [{
+    "report": {
+      "no": 1,
+      "wellbore_name": "Well-OH",
+      "date": "11/4/2019",
+      "status": "Approved"
+    },
+    "personel": {
+      "title": "Onsite Persons",
+      "table": [{
+        "no": 1,
+        "company_name": "BJ Services",
+        "no_people": 2,
+        "total_hours": "0.00",
+        "carryover": true,
+        "job_details": ""
+      }, {
+        "no": 2,
+        "company_name": "BJ Services 2",
+        "no_people": 3,
+        "total_hours": "2.00",
+        "carryover": false,
+        "job_details": "ok"
+      }],
+      "form": [{
+        "type": "text",
+        "placeholder": "no",
+        "label": "No",
+        "name": "no",
+        "value": "",
+        "validate": "required",
+        "hidden": true
+      }, {
+        "type": "text",
+        "placeholder": "",
+        "label": "Company Name",
+        "name": "company_name",
+        "value": "",
+        "validate": "required"
+      }, {
+        "type": "number",
+        "placeholder": "",
+        "label": "No. People",
+        "name": "no_people",
+        "value": null,
+        "validate": "required"
+      }, {
+        "type": "number",
+        "placeholder": "",
+        "label": "Total Hours",
+        "name": "total_hours",
+        "value": null,
+        "validate": "required"
+      }, {
+        "type": "checkbox",
+        "placeholder": "",
+        "label": "Carryover",
+        "name": "carryover",
+        "value": false,
+        "validate": "required"
+      }, {
+        "type": "text",
+        "placeholder": "",
+        "label": "Job Details",
+        "name": "job_details",
+        "value": "",
+        "validate": "required"
+      }]
+    }
+  }]
 }
